@@ -4,7 +4,10 @@ Examples using GoLang
 Installing on MAC
 
 `//If you already have an old GO`
-`$ brew uninstall go hg`
+
+```sh 
+$ brew uninstall go hg
+```
 
 `$ brew install go hg`
 
