@@ -33,7 +33,8 @@ package main
 import "fmt"
 func main() {
     fmt.Printf("Hello, world.\n")
-}```
+}
+```
 
 This command will create $GOPATH/bin folder and put in the compiled "hello.go"
 
