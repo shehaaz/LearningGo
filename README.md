@@ -3,7 +3,7 @@ Examples using GoLang
 
 Installing on MAC
 
-`//If you already have an old GO`
+If you already have an old GO
 
 ```sh 
 $ brew uninstall go hg
@@ -11,7 +11,7 @@ $ brew uninstall go hg
 
 `$ brew install go hg`
 
-`//create a local GO workspace`
+create a local GO workspace
 
 `$ mkdir $HOME/go`
 
@@ -19,7 +19,7 @@ $ brew uninstall go hg
 
 `$ export PATH=GOPATH/bin:$PATH`
 
-`//This is a convention in GO`
+This is a package naming convention in GO
 
 `$ mkdir -p $GOPATH/src/github.com/[GITHUB_USERNAME]/[PROJECT_NAME]`
 
@@ -35,7 +35,7 @@ func main() {
     fmt.Printf("Hello, world.\n")
 }```
 
-`//this command will create $GOPATH/bin folder and put in the compiled "hello"`
+This command will create $GOPATH/bin folder and put in the compiled "hello.go"
 
 `$ go install`
 
