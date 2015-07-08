@@ -5,7 +5,7 @@ Installing on MAC
 
 If you already have an old GO
 
-```sh 
+```sh
 $ brew uninstall go hg
 ```
 
@@ -43,3 +43,11 @@ This command will create $GOPATH/bin folder and put in the compiled "hello.go"
 `$ hello`
 
 `>Hello, world.`
+
+
+Where are are the dependencies stored in GO?
+
+e.g:
+
+`$ go get github.com/gorilla/mux`
+`$ ~/go/pkg/darwin_amd64/github.com/gorilla`
