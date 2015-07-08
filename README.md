@@ -51,3 +51,5 @@ e.g:
 
 `$ go get github.com/gorilla/mux`
 `$ ~/go/pkg/darwin_amd64/github.com/gorilla`
+
+Used in the following [The New Stack](http://thenewstack.io/make-a-restful-json-api-go/) article for the /server/SimpleTodoList example
