@@ -1,4 +1,4 @@
-# LearningGo 
+# LearningGo
 Examples using GoLang
 
 Installing on MAC
